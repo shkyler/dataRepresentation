@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Start with the library-->
+<library>
+  <!--Add a catalogue for Cookery Books-->
+  <catalogue name="Cookery Books">
+    <!--Add a Jamie Oliver Cook Book details from here: 
+    https://www.amazon.co.uk/Jamies-15-Minute-Meals-Jamie-Oliver/dp/071815780X/ref=sr_1_1?adgrpid=58450674695&gclid=Cj0KCQjw5rbsBRCFARIsAGEYRwdMShqvRsu-NBSiEJqNuSqihtey6vElXLToB8oz-mHAYnegpHYOcpwaAjGvEALw_wcB&hvadid=291411772207&hvdev=c&hvlocphy=1007850&hvnetw=g&hvpos=1t1&hvqmt=b&hvrand=15668222449888376042&hvtargid=kwd-299153985526&hydadcr=26155_1816663&keywords=jamie%27s+15-minute+meals&qid=1569613516&sr=8-1-->
+    <book>
+      <isbn10>071815780X</isbn10>
+      <title>Jamie's 15 Minute Meals</title>
+      <author>Jamie Oliver</author>
+    </book>
+    <!--Add a Nigella Lawson Cook Book, details from here:
+    https://www.amazon.co.uk/At-My-Table-Celebration-Cooking/dp/1784741639/ref=sr_1_1?keywords=nigella+lawson+books&pd_rd_r=3a384c43-4c1e-4f29-90f9-4a4754268794&pd_rd_w=2PFiu&pd_rd_wg=MbSVZ&pf_rd_p=e7902d16-9f01-4231-87b9-f5e61fb13823&pf_rd_r=V3BN85CEQ6PKRZK0MJCZ&qid=1569613645&sr=8-1-->
+    <book>
+      <isbn10>9781784741631</isbn10>
+      <title>At My Table: A Celebration of Home Cooking</title>
+      <author>Nigella Lawson</author>
+    </book>
+  <!--Close out the catalogue-->      
+  </catalogue>
+  <!--Add a catalogue for Technical Books-->
+  <catalogue name="Techical Books">
+    <!--Add a HTML & CSS Book, details from here:
+    https://www.amazon.co.uk/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_2?keywords=html&qid=1569614078&sr=8-2-->
+    <book>
+      <isbn10>1118008189</isbn10>
+      <title>HTML and CSS: Design and Build Websites</title>
+      <author>Jon Duckett</author>
+    </book>
+    <!--Add an XML Book, details from here:
+    https://www.amazon.co.uk/Learning-XML-Erik-T-Ray/dp/0596004206/ref=sr_1_3?keywords=xml&qid=1569614302&sr=8-3-->
+    <book>
+      <isbn10>0596004206</isbn10>
+      <title>Learning XML</title>
+      <author>Erik T. Ray</author>
+    </book>
+  <!--Close out the catalogue-->       
+  </catalogue>
+<!--Close out the library--> 
+</library>
