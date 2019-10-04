@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <head>
+      <title>2e6</title>
+  </head>
+  <body>
+    <input type="number" onclick="checkNumber(this)"/>
+    <div id="output">
+      </br>
+        Output Here!
+      </br>
+    </div>
+    <script>
+      function checkNumber(inputElement){
+        var value = inputElement.value;
+        if (value > 10){
+          document.getElementById("output").innerText = "Greater than 10!";
+        }else if (value < 10){
+          document.getElementById("output").innerText = "Less than 10!";
+        }else{
+          document.getElementById("output").innerText = "Equals 10!"
+        }   
+      }
+    </script>
+  </body>
+</html>
