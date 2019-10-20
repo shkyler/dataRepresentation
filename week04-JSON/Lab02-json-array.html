@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON Array</title>
+</head>
+<body>
+  <div>
+    <!--Call the function when the button is clicked-->
+    <button onclick="displayJSON()">Go</button>
+  </div>
+  <div>
+  </div>
+
+</body>    
+<script>
+function displayJSON(){
+  var obj = JSON.parse('{"employees": [{"firstName": "Jo hn", "lastName": "Doe"},{ "firstName": "Anna","lastName": "Smith"} ,{"firstName": "Peter","lastName": "Jones"}]}')
+  for (employee of obj.employees){ 
+    console.log(employee.firstName)
+  } 
+}
+</script>
+
+</script>
+</html>

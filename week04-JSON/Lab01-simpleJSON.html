@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple JSON</title>
+</head>
+<body>
+  <div>
+    <!--Call the function when the button is clicked-->
+    <button onclick="printAuthor()">Go</button>
+  </div>
+  <div>
+  </div>
+
+</body>    
+<script>
+function printAuthor(){
+  // convert the item to a JSON object
+  var obj = JSON.parse('{"isbn": 1234567, "Author": "Andrew Beatty","Title" : "the emptness of ping-pong balls"}') 
+  // log the Author to the console
+  console.log(obj.Author)
+}
+</script>
+
+</script>
+</html>
