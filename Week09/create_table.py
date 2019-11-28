@@ -4,5 +4,5 @@ mydb=mysql.connector.connect(
   user="root",password="root",
   database="datarepresentation")
 mycursor=mydb.cursor()
-sql="CREATE TABLE student(id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(255),address VARCHAR(255))"
+sql="CREATE TABLE student(id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(255),age int(3))"
 mycursor.execute(sql)

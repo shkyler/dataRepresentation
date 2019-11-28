@@ -5,8 +5,8 @@ db=mysql.connector.connect(
   password="root",
   database="datarepresentation")
 cursor=db.cursor()
-sql="update student set name=%s,address=%s where id=%s"
-values=("Joe","Dublin",1)
+sql="update student set name=%s,age=%s where id=%s"
+values=("Joe",33,1)
 cursor.execute(sql,values)
 db.commit()
 print("updatedone")
